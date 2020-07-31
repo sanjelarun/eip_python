@@ -1,5 +1,6 @@
 ''' WAP which takee input two strings s and t of bits encoding binary numbers Bs and Bt, respectively
  and returns a new string of bits represeting the number Bs + Bt '''
+import time
 def binary_string_add(A, B):
     # Making sure that both string have equal length
     diff = abs(len(A) - len(B))
@@ -22,7 +23,9 @@ def binary_string_add(A, B):
             carry = 1
         else:
             s = str(tmp) + s
-        i -= 1  
+        i -= 1
     return  "1" + s if carry == 1 else s
 
-print(binary_string_add('11111', '1'))
+start_time = time.time()
+print(binary_string_add('111', '11'))
+print("--- %s seconds ---" % (time.time() - start_time))

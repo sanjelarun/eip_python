@@ -1,6 +1,6 @@
 ''' WAP which takee input two strings s and t of bits encoding binary numbers Bs and Bt, respectively
  and returns a new string of bits represeting the number Bs + Bt '''
-
+import time
 
 def cache_table(a, b, c):
     if a == '0' and b == '0' and c == '0':
@@ -40,5 +40,6 @@ def binary_string_add(A, B):
     if c == '1': s = '1' + s
     return s
 
-
+start_time = time.time()
 print(binary_string_add('111', '11'))
+print("--- %s seconds ---" % (time.time() - start_time))
