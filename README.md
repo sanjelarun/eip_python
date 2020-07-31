@@ -1,2 +1,2 @@
 # eop_python
-Solved problems of Elements of Programming Pythons
+Solved problems of Elements of Programming Python
