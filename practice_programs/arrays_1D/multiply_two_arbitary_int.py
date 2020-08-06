@@ -1,5 +1,5 @@
 '''
-WAP that takes two arrays representing integers, and returns an integer representing their product
+WAP that takes two arrays_1D representing integers, and returns an integer representing their product
 Example <1,2> and <2> returns <2,4>
 '''
 import time

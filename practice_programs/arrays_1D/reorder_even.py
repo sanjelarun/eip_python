@@ -1,5 +1,5 @@
 # REORDER ARRAYS
-# Reorder the arrays such that evens numbers are in front of the list [1,2,3] -> [2,1,3]
+# Reorder the arrays_1D such that evens numbers are in front of the list [1,2,3] -> [2,1,3]
 
 
 def swap(i, j, nums):
